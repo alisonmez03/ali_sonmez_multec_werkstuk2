@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		887C7E0520A5E4FF002C7D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7E0420A5E4FF002C7D84 /* AppDelegate.swift */; };
+		887C7E0720A5E4FF002C7D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7E0620A5E4FF002C7D84 /* ViewController.swift */; };
+		887C7E0A20A5E4FF002C7D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C7E0820A5E4FF002C7D84 /* Main.storyboard */; };
+		887C7E0D20A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 887C7E0B20A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2.xcdatamodeld */; };
+		887C7E0F20A5E500002C7D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887C7E0E20A5E500002C7D84 /* Assets.xcassets */; };
+		887C7E1220A5E500002C7D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C7E1020A5E500002C7D84 /* LaunchScreen.storyboard */; };
+		887C7E1D20A5E500002C7D84 /* ali_sonmez_multec_werkstuk2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7E1C20A5E500002C7D84 /* ali_sonmez_multec_werkstuk2Tests.swift */; };
+		887C7E2820A5E500002C7D84 /* ali_sonmez_multec_werkstuk2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7E2720A5E500002C7D84 /* ali_sonmez_multec_werkstuk2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		887C7E1920A5E500002C7D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 887C7DF920A5E4FE002C7D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887C7E0020A5E4FE002C7D84;
+			remoteInfo = ali_sonmez_multec_werkstuk2;
+		};
+		887C7E2420A5E500002C7D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 887C7DF920A5E4FE002C7D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887C7E0020A5E4FE002C7D84;
+			remoteInfo = ali_sonmez_multec_werkstuk2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		887C7E0120A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ali_sonmez_multec_werkstuk2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		887C7E0420A5E4FF002C7D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		887C7E0620A5E4FF002C7D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		887C7E0920A5E4FF002C7D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		887C7E0C20A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ali_sonmez_multec_werkstuk2.xcdatamodel; sourceTree = "<group>"; };
+		887C7E0E20A5E500002C7D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		887C7E1120A5E500002C7D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		887C7E1320A5E500002C7D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887C7E1820A5E500002C7D84 /* ali_sonmez_multec_werkstuk2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ali_sonmez_multec_werkstuk2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		887C7E1C20A5E500002C7D84 /* ali_sonmez_multec_werkstuk2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ali_sonmez_multec_werkstuk2Tests.swift; sourceTree = "<group>"; };
+		887C7E1E20A5E500002C7D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887C7E2320A5E500002C7D84 /* ali_sonmez_multec_werkstuk2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ali_sonmez_multec_werkstuk2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		887C7E2720A5E500002C7D84 /* ali_sonmez_multec_werkstuk2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ali_sonmez_multec_werkstuk2UITests.swift; sourceTree = "<group>"; };
+		887C7E2920A5E500002C7D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		887C7DFE20A5E4FE002C7D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887C7E1520A5E500002C7D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887C7E2020A5E500002C7D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		887C7DF820A5E4FE002C7D84 = {
+			isa = PBXGroup;
+			children = (
+				887C7E0320A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2 */,
+				887C7E1B20A5E500002C7D84 /* ali_sonmez_multec_werkstuk2Tests */,
+				887C7E2620A5E500002C7D84 /* ali_sonmez_multec_werkstuk2UITests */,
+				887C7E0220A5E4FF002C7D84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		887C7E0220A5E4FF002C7D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				887C7E0120A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2.app */,
+				887C7E1820A5E500002C7D84 /* ali_sonmez_multec_werkstuk2Tests.xctest */,
+				887C7E2320A5E500002C7D84 /* ali_sonmez_multec_werkstuk2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		887C7E0320A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2 */ = {
+			isa = PBXGroup;
+			children = (
+				887C7E0420A5E4FF002C7D84 /* AppDelegate.swift */,
+				887C7E0620A5E4FF002C7D84 /* ViewController.swift */,
+				887C7E0820A5E4FF002C7D84 /* Main.storyboard */,
+				887C7E0E20A5E500002C7D84 /* Assets.xcassets */,
+				887C7E1020A5E500002C7D84 /* LaunchScreen.storyboard */,
+				887C7E1320A5E500002C7D84 /* Info.plist */,
+				887C7E0B20A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2.xcdatamodeld */,
+			);
+			path = ali_sonmez_multec_werkstuk2;
+			sourceTree = "<group>";
+		};
+		887C7E1B20A5E500002C7D84 /* ali_sonmez_multec_werkstuk2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				887C7E1C20A5E500002C7D84 /* ali_sonmez_multec_werkstuk2Tests.swift */,
+				887C7E1E20A5E500002C7D84 /* Info.plist */,
+			);
+			path = ali_sonmez_multec_werkstuk2Tests;
+			sourceTree = "<group>";
+		};
+		887C7E2620A5E500002C7D84 /* ali_sonmez_multec_werkstuk2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				887C7E2720A5E500002C7D84 /* ali_sonmez_multec_werkstuk2UITests.swift */,
+				887C7E2920A5E500002C7D84 /* Info.plist */,
+			);
+			path = ali_sonmez_multec_werkstuk2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		887C7E0020A5E4FE002C7D84 /* ali_sonmez_multec_werkstuk2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887C7E2C20A5E500002C7D84 /* Build configuration list for PBXNativeTarget "ali_sonmez_multec_werkstuk2" */;
+			buildPhases = (
+				887C7DFD20A5E4FE002C7D84 /* Sources */,
+				887C7DFE20A5E4FE002C7D84 /* Frameworks */,
+				887C7DFF20A5E4FE002C7D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ali_sonmez_multec_werkstuk2;
+			productName = ali_sonmez_multec_werkstuk2;
+			productReference = 887C7E0120A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		887C7E1720A5E500002C7D84 /* ali_sonmez_multec_werkstuk2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887C7E2F20A5E500002C7D84 /* Build configuration list for PBXNativeTarget "ali_sonmez_multec_werkstuk2Tests" */;
+			buildPhases = (
+				887C7E1420A5E500002C7D84 /* Sources */,
+				887C7E1520A5E500002C7D84 /* Frameworks */,
+				887C7E1620A5E500002C7D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				887C7E1A20A5E500002C7D84 /* PBXTargetDependency */,
+			);
+			name = ali_sonmez_multec_werkstuk2Tests;
+			productName = ali_sonmez_multec_werkstuk2Tests;
+			productReference = 887C7E1820A5E500002C7D84 /* ali_sonmez_multec_werkstuk2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		887C7E2220A5E500002C7D84 /* ali_sonmez_multec_werkstuk2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887C7E3220A5E500002C7D84 /* Build configuration list for PBXNativeTarget "ali_sonmez_multec_werkstuk2UITests" */;
+			buildPhases = (
+				887C7E1F20A5E500002C7D84 /* Sources */,
+				887C7E2020A5E500002C7D84 /* Frameworks */,
+				887C7E2120A5E500002C7D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				887C7E2520A5E500002C7D84 /* PBXTargetDependency */,
+			);
+			name = ali_sonmez_multec_werkstuk2UITests;
+			productName = ali_sonmez_multec_werkstuk2UITests;
+			productReference = 887C7E2320A5E500002C7D84 /* ali_sonmez_multec_werkstuk2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		887C7DF920A5E4FE002C7D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ali Sönmez";
+				TargetAttributes = {
+					887C7E0020A5E4FE002C7D84 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					887C7E1720A5E500002C7D84 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 887C7E0020A5E4FE002C7D84;
+					};
+					887C7E2220A5E500002C7D84 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 887C7E0020A5E4FE002C7D84;
+					};
+				};
+			};
+			buildConfigurationList = 887C7DFC20A5E4FE002C7D84 /* Build configuration list for PBXProject "ali_sonmez_multec_werkstuk2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 887C7DF820A5E4FE002C7D84;
+			productRefGroup = 887C7E0220A5E4FF002C7D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				887C7E0020A5E4FE002C7D84 /* ali_sonmez_multec_werkstuk2 */,
+				887C7E1720A5E500002C7D84 /* ali_sonmez_multec_werkstuk2Tests */,
+				887C7E2220A5E500002C7D84 /* ali_sonmez_multec_werkstuk2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		887C7DFF20A5E4FE002C7D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887C7E1220A5E500002C7D84 /* LaunchScreen.storyboard in Resources */,
+				887C7E0F20A5E500002C7D84 /* Assets.xcassets in Resources */,
+				887C7E0A20A5E4FF002C7D84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887C7E1620A5E500002C7D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887C7E2120A5E500002C7D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		887C7DFD20A5E4FE002C7D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887C7E0D20A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2.xcdatamodeld in Sources */,
+				887C7E0720A5E4FF002C7D84 /* ViewController.swift in Sources */,
+				887C7E0520A5E4FF002C7D84 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887C7E1420A5E500002C7D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887C7E1D20A5E500002C7D84 /* ali_sonmez_multec_werkstuk2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887C7E1F20A5E500002C7D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887C7E2820A5E500002C7D84 /* ali_sonmez_multec_werkstuk2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		887C7E1A20A5E500002C7D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 887C7E0020A5E4FE002C7D84 /* ali_sonmez_multec_werkstuk2 */;
+			targetProxy = 887C7E1920A5E500002C7D84 /* PBXContainerItemProxy */;
+		};
+		887C7E2520A5E500002C7D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 887C7E0020A5E4FE002C7D84 /* ali_sonmez_multec_werkstuk2 */;
+			targetProxy = 887C7E2420A5E500002C7D84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		887C7E0820A5E4FF002C7D84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				887C7E0920A5E4FF002C7D84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		887C7E1020A5E500002C7D84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				887C7E1120A5E500002C7D84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		887C7E2A20A5E500002C7D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		887C7E2B20A5E500002C7D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		887C7E2D20A5E500002C7D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ali_sonmez_multec_werkstuk2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.ali-sonmez-multec-werkstuk2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		887C7E2E20A5E500002C7D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ali_sonmez_multec_werkstuk2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.ali-sonmez-multec-werkstuk2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		887C7E3020A5E500002C7D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ali_sonmez_multec_werkstuk2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.ali-sonmez-multec-werkstuk2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ali_sonmez_multec_werkstuk2.app/ali_sonmez_multec_werkstuk2";
+			};
+			name = Debug;
+		};
+		887C7E3120A5E500002C7D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ali_sonmez_multec_werkstuk2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.ali-sonmez-multec-werkstuk2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ali_sonmez_multec_werkstuk2.app/ali_sonmez_multec_werkstuk2";
+			};
+			name = Release;
+		};
+		887C7E3320A5E500002C7D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ali_sonmez_multec_werkstuk2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.ali-sonmez-multec-werkstuk2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ali_sonmez_multec_werkstuk2;
+			};
+			name = Debug;
+		};
+		887C7E3420A5E500002C7D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ali_sonmez_multec_werkstuk2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.ali-sonmez-multec-werkstuk2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ali_sonmez_multec_werkstuk2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		887C7DFC20A5E4FE002C7D84 /* Build configuration list for PBXProject "ali_sonmez_multec_werkstuk2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887C7E2A20A5E500002C7D84 /* Debug */,
+				887C7E2B20A5E500002C7D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887C7E2C20A5E500002C7D84 /* Build configuration list for PBXNativeTarget "ali_sonmez_multec_werkstuk2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887C7E2D20A5E500002C7D84 /* Debug */,
+				887C7E2E20A5E500002C7D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887C7E2F20A5E500002C7D84 /* Build configuration list for PBXNativeTarget "ali_sonmez_multec_werkstuk2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887C7E3020A5E500002C7D84 /* Debug */,
+				887C7E3120A5E500002C7D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887C7E3220A5E500002C7D84 /* Build configuration list for PBXNativeTarget "ali_sonmez_multec_werkstuk2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887C7E3320A5E500002C7D84 /* Debug */,
+				887C7E3420A5E500002C7D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		887C7E0B20A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				887C7E0C20A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2.xcdatamodel */,
+			);
+			currentVersion = 887C7E0C20A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2.xcdatamodel */;
+			path = ali_sonmez_multec_werkstuk2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 887C7DF920A5E4FE002C7D84 /* Project object */;
+}
