@@ -7,7 +7,6 @@
 //
 
 import MapKit
-import Contacts
 
 class Artwork: NSObject, MKAnnotation {
     let title: String?
@@ -26,19 +25,5 @@ class Artwork: NSObject, MKAnnotation {
     
     var subtitle: String? {
         return locationName
-    }
-    
-    init?(json: [Any]) {
-        // 1
-        self.title = json[16] as? String ?? "No Title"
-        self.locationName = json[12] as! String
-        self.discipline = json[15] as! String
-        // 2
-        if let latitude = Double(json[18] as! String),
-            let longitude = Double(json[19] as! String) {
-            self.coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
-        } else {
-            self.coordinate = CLLocationCoordinate2D()
-        }
     }
 }

@@ -9,9 +9,12 @@
 import UIKit
 import MapKit
 
+struct Villo:Decodable {
+    let number: Int
+    let name: String
+}
+
 class ViewController: UIViewController {
-    
-    var artworks: [Artwork] = []
 
     @IBOutlet weak var mapView: MKMapView!
     
@@ -22,28 +25,41 @@ class ViewController: UIViewController {
         
         let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
         
-            centerMapOnLocation(location: initialLocation)
+        centerMapOnLocation(location: initialLocation)
             
             let artwork = Artwork(title: "King David Kalakaua",
                                   locationName: "Waikiki Gateway Park",
                                   discipline: "Sculpture",
                                   coordinate: CLLocationCoordinate2D(latitude: 21.282778, longitude: -157.829444))
-            mapView.addAnnotation(artwork)
         
-        loadInitialData()
-        mapView.addAnnotations(artworks)
+        mapView.addAnnotation(artwork)
+        
+        let url = "https://api.jcdecaux.com/vls/v1/stations?apiKey=6d5071ed0d0b3b68462ad73df43fd9e5479b03d6&contract=Bruxelles-Capitale"
+        let urlObj = URL(string: url)
+        
+        URLSession.shared.dataTask(with: urlObj!) {(data, response, error) in
+            
+            do{
+                let Villobxl = try JSONDecoder().decode([Villo].self, from: data!)
+                
+                for villo in Villobxl {
+                    print(villo.number , villo.name)
+                }
+                
+            } catch{
+                print("Shit Error")
+            }
+            }.resume()
         }
     
     let regionRadius: CLLocationDistance = 1000
     func centerMapOnLocation(location: CLLocation) {
-    let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
-                                                                  regionRadius, regionRadius)
-        mapView.setRegion(coordinateRegion, animated: true)
+    let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,regionRadius, regionRadius)
+    mapView.setRegion(coordinateRegion, animated: true)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 }
 
@@ -68,26 +84,6 @@ extension ViewController: MKMapViewDelegate {
             view.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
         }
         return view
-    }
-    
-    func loadInitialData() {
-        // 1
-        guard let fileName = Bundle.main.path(forResource: "PublicArt", ofType: "json")
-            else { return }
-        let optionalData = try? Data(contentsOf: URL(fileURLWithPath: fileName))
-        
-        guard
-            let data = optionalData,
-            // 2
-            let json = try? JSONSerialization.jsonObject(with: data),
-            // 3
-            let dictionary = json as? [String: Any],
-            // 4
-            let works = dictionary["data"] as? [[Any]]
-            else { return }
-        // 5
-        let validWorks = works.compactMap { Artwork(json: $0) }
-        artworks.append(contentsOf: validWorks)
     }
 }
 
