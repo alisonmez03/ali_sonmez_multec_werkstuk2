@@ -8,6 +8,7 @@
 
 import UIKit
 import MapKit
+import CoreLocation
 
 struct Villo:Decodable {
     let number: Int
@@ -20,11 +21,18 @@ struct Locatie:Decodable {
     let lng: Double
 }
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
+    
     @IBOutlet weak var mapView: MKMapView!
+    
+    var locationManager = CLLocationManager()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        locationManager.requestAlwaysAuthorization()
+        locationManager.startUpdatingLocation()
         
         let url = "https://api.jcdecaux.com/vls/v1/stations?apiKey=6d5071ed0d0b3b68462ad73df43fd9e5479b03d6&contract=Bruxelles-Capitale"
         let urlObj = URL(string: url)
@@ -45,5 +53,12 @@ class ViewController: UIViewController {
                 print("Shit Error")
             }
         }.resume()
+    }
+    
+    func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
+        let center = CLLocationCoordinate2D(latitude: userLocation.coordinate.latitude, longitude: userLocation.coordinate.longitude)
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+        
+        mapView.setRegion(region, animated: true)
     }
 }

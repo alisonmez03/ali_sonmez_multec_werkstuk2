@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88291FCC20A7AF30007624F2 /* DetailleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88291FCB20A7AF30007624F2 /* DetailleViewController.swift */; };
 		887C7E0520A5E4FF002C7D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7E0420A5E4FF002C7D84 /* AppDelegate.swift */; };
 		887C7E0720A5E4FF002C7D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7E0620A5E4FF002C7D84 /* ViewController.swift */; };
 		887C7E0A20A5E4FF002C7D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C7E0820A5E4FF002C7D84 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88291FCB20A7AF30007624F2 /* DetailleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailleViewController.swift; sourceTree = "<group>"; };
 		887C7E0120A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ali_sonmez_multec_werkstuk2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		887C7E0420A5E4FF002C7D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		887C7E0620A5E4FF002C7D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				887C7E0420A5E4FF002C7D84 /* AppDelegate.swift */,
 				887C7E0620A5E4FF002C7D84 /* ViewController.swift */,
+				88291FCB20A7AF30007624F2 /* DetailleViewController.swift */,
 				887C7E0820A5E4FF002C7D84 /* Main.storyboard */,
 				887C7E0E20A5E500002C7D84 /* Assets.xcassets */,
 				887C7E1020A5E500002C7D84 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				887C7E0D20A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2.xcdatamodeld in Sources */,
 				887C7E0720A5E4FF002C7D84 /* ViewController.swift in Sources */,
+				88291FCC20A7AF30007624F2 /* DetailleViewController.swift in Sources */,
 				887C7E0520A5E4FF002C7D84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
