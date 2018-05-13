@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88291FCC20A7AF30007624F2 /* DetailleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88291FCB20A7AF30007624F2 /* DetailleViewController.swift */; };
+		887131FD20A7DEDF006A6AA0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 887131FF20A7DEDF006A6AA0 /* Localizable.strings */; };
 		887C7E0520A5E4FF002C7D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7E0420A5E4FF002C7D84 /* AppDelegate.swift */; };
 		887C7E0720A5E4FF002C7D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C7E0620A5E4FF002C7D84 /* ViewController.swift */; };
 		887C7E0A20A5E4FF002C7D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C7E0820A5E4FF002C7D84 /* Main.storyboard */; };
@@ -36,7 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		88291FCB20A7AF30007624F2 /* DetailleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailleViewController.swift; sourceTree = "<group>"; };
+		887131F720A7DEA0006A6AA0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		887131F820A7DEA1006A6AA0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		887131F920A7DEA5006A6AA0 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
+		887131FA20A7DEA5006A6AA0 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		887131FE20A7DEDF006A6AA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8871320020A7DEE3006A6AA0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8871320120A7DEE4006A6AA0 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		887C7E0120A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ali_sonmez_multec_werkstuk2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		887C7E0420A5E4FF002C7D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		887C7E0620A5E4FF002C7D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +87,7 @@
 		887C7DF820A5E4FE002C7D84 = {
 			isa = PBXGroup;
 			children = (
+				887131FF20A7DEDF006A6AA0 /* Localizable.strings */,
 				887C7E0320A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2 */,
 				887C7E1B20A5E500002C7D84 /* ali_sonmez_multec_werkstuk2Tests */,
 				887C7E2620A5E500002C7D84 /* ali_sonmez_multec_werkstuk2UITests */,
@@ -103,7 +110,6 @@
 			children = (
 				887C7E0420A5E4FF002C7D84 /* AppDelegate.swift */,
 				887C7E0620A5E4FF002C7D84 /* ViewController.swift */,
-				88291FCB20A7AF30007624F2 /* DetailleViewController.swift */,
 				887C7E0820A5E4FF002C7D84 /* Main.storyboard */,
 				887C7E0E20A5E500002C7D84 /* Assets.xcassets */,
 				887C7E1020A5E500002C7D84 /* LaunchScreen.storyboard */,
@@ -217,6 +223,8 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				nl,
 			);
 			mainGroup = 887C7DF820A5E4FE002C7D84;
 			productRefGroup = 887C7E0220A5E4FF002C7D84 /* Products */;
@@ -236,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				887C7E1220A5E500002C7D84 /* LaunchScreen.storyboard in Resources */,
+				887131FD20A7DEDF006A6AA0 /* Localizable.strings in Resources */,
 				887C7E0F20A5E500002C7D84 /* Assets.xcassets in Resources */,
 				887C7E0A20A5E4FF002C7D84 /* Main.storyboard in Resources */,
 			);
@@ -264,7 +273,6 @@
 			files = (
 				887C7E0D20A5E4FF002C7D84 /* ali_sonmez_multec_werkstuk2.xcdatamodeld in Sources */,
 				887C7E0720A5E4FF002C7D84 /* ViewController.swift in Sources */,
-				88291FCC20A7AF30007624F2 /* DetailleViewController.swift in Sources */,
 				887C7E0520A5E4FF002C7D84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,10 +309,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		887131FF20A7DEDF006A6AA0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				887131FE20A7DEDF006A6AA0 /* en */,
+				8871320020A7DEE3006A6AA0 /* fr */,
+				8871320120A7DEE4006A6AA0 /* nl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		887C7E0820A5E4FF002C7D84 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				887C7E0920A5E4FF002C7D84 /* Base */,
+				887131F720A7DEA0006A6AA0 /* fr */,
+				887131F920A7DEA5006A6AA0 /* nl */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -313,6 +333,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				887C7E1120A5E500002C7D84 /* Base */,
+				887131F820A7DEA1006A6AA0 /* fr */,
+				887131FA20A7DEA5006A6AA0 /* nl */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -324,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -384,6 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
