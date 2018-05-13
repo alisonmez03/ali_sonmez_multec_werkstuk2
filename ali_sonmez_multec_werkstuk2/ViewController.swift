@@ -24,6 +24,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     @IBOutlet weak var mapView: MKMapView!
     
+    @IBOutlet weak var lblUpdate: UILabel!
     @IBOutlet var lblTitel: UILabel!
     @IBAction func btnNed(_ sender: UIButton) {
         let language = Bundle.main.path(forResource: "nl", ofType: "lproj")
@@ -32,20 +33,21 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     }
     @IBAction func btnEn(_ sender: UIButton) {
         let language = Bundle.main.path(forResource: "en", ofType: "lproj")
-        let nl = Bundle.init(path: language!)! as Bundle
-        lblTitel.text = nl.localizedString(forKey: "Hello", value: nil, table: nil)
+        let en = Bundle.init(path: language!)! as Bundle
+        lblTitel.text = en.localizedString(forKey: "Hello", value: nil, table: nil)
     }
     @IBAction func btnFr(_ sender: UIButton) {
         let language = Bundle.main.path(forResource: "fr", ofType: "lproj")
-        let nl = Bundle.init(path: language!)! as Bundle
-        lblTitel.text = nl.localizedString(forKey: "Hello", value: nil, table: nil)
+        let fr = Bundle.init(path: language!)! as Bundle
+        lblTitel.text = fr.localizedString(forKey: "Hello", value: nil, table: nil)
     }
     
     var locationManager = CLLocationManager()
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        lblUpdate.text = NSLocalizedString("Refresh", comment: "")
         
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
@@ -70,6 +72,8 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
                 print("Shit Error")
             }
         }.resume()
+        
+        refresh()
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -81,5 +85,13 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         mapView.setRegion(region, animated: true)
         mapView.showsUserLocation = true
+    }
+    
+    func refresh() {
+        let datum = Date()
+        let kalender = Calendar.current
+        let uur = kalender.component(.hour, from: datum)
+        let minuten = kalender.component(.minute, from: datum)
+        lblUpdate.text = "Last Update: \(uur):\(minuten) h"
     }
 }
